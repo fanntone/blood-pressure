@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 白色愛心＋心跳線；108dp 畫布，內容在中央 66dp 安全區內 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,80 L34,60 C26,52 26,40 35,35 C42,31 50,34 54,41 C58,34 66,31 73,35 C82,40 82,52 74,60 Z" />
+    <path
+        android:strokeColor="@color/ic_launcher_background"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,52 L44,52 L48,44 L54,62 L59,48 L62,52 L78,52" />
+</vector>
