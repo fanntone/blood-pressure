@@ -43,6 +43,7 @@ sealed interface Screen {
     data class Retry(val photo: Bitmap) : Screen
     data class Edit(val reading: Reading) : Screen
     data object History : Screen
+    data object Share : Screen
 }
 
 @Composable
@@ -94,6 +95,7 @@ fun BpApp(repo: ReadingRepository, failedPhotos: FailedPhotoStore) {
                 onCamera = { screen = Screen.Camera },
                 onGallery = { pickPhoto.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly)) },
                 onHistory = { screen = Screen.History },
+                onShare = { screen = Screen.Share },
             )
 
             Screen.Camera -> CameraScreen(
@@ -127,6 +129,8 @@ fun BpApp(repo: ReadingRepository, failedPhotos: FailedPhotoStore) {
                 },
                 onCancel = { screen = Screen.Home },
             )
+
+            Screen.Share -> ShareScreen(onBack = { screen = Screen.Home })
 
             Screen.History -> HistoryScreen(
                 readings = readings,

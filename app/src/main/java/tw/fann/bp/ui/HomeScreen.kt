@@ -31,6 +31,7 @@ fun HomeScreen(
     onCamera: () -> Unit,
     onGallery: () -> Unit,
     onHistory: () -> Unit,
+    onShare: () -> Unit,
 ) {
     Column(
         Modifier
@@ -49,6 +50,7 @@ fun HomeScreen(
 
         RecentChart(readings)
         BigButton("📈  看完整紀錄與報告", onHistory, outlined = true)
+        BigButton("📤  分享這個 App", onShare, outlined = true)
     }
 }
 

@@ -17,9 +17,14 @@ Kotlin + Jetpack Compose, large-type UI for older users.*
 
 <sub>截圖為示範版的假資料。</sub>
 
+### 👉 [下載 APK（最新版）](https://github.com/fanntone/blood-pressure/releases/latest/download/blood-pressure.apk)
+
+用手機點上面的連結就會下載安裝檔，不需要自己編譯。
+
 ## 下載安裝
 
-到 [Releases](../../releases/latest) 下載 `blood-pressure-*.apk`，用手機開啟安裝。
+到 [Releases](../../releases/latest) 下載 `blood-pressure.apk`，用手機開啟安裝。
+App 首頁的「分享這個 App」也有 QR code，給別人掃描就能直接下載。
 第一次安裝時 Android 會詢問是否允許「安裝未知來源的應用程式」，允許即可。
 
 - 需求：Android 8.0 以上、有後鏡頭

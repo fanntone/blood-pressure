@@ -67,6 +67,8 @@ dependencies {
     implementation("androidx.camera:camera-view:$camerax")
 
     implementation("androidx.exifinterface:exifinterface:1.4.1")
+    // 分享頁的 QR code 在手機上離線產生
+    implementation("com.google.zxing:core:3.5.3")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")

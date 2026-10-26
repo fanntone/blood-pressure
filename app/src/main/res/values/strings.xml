@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">量血壓</string>
+    <!-- 分享 QR code 指向的下載網址：GitHub 最新版的 APK（檔名固定，發新版不用改） -->
+    <string name="share_url" translatable="false">https://github.com/fanntone/blood-pressure/releases/latest/download/blood-pressure.apk</string>
 </resources>
